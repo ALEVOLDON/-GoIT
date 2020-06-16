@@ -8,13 +8,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background: #f5f7fa;
 	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
 }
 
 
 .wrapper {
+	width: 1200px;
 	display: flex;
 	background: #fff;
-	margin: 20px;
+	margin: 20px auto;
 	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -45,7 +48,6 @@ body {
 .soft-skills-container h3 {
 	font-size: 22px;
 	font-weight: 700;
-	line-height: 24px;
 }
 
 .contacts-container div {
@@ -56,8 +58,8 @@ body {
 .contacts-link a {
 	margin-left: 10px;
 	color: #fff;
-	font-weight: 400;
-	opacity: 0.5; 
+	opacity: 0.5;
+	font-weight: 400; 
 }
 
 .tech-skiils-container ul,
@@ -68,8 +70,6 @@ body {
 
 .tech-skiils-container li,
 .soft-skills-container li {
-	font-weight: 400;
-	line-height: 24px;
 	color: #ff6b08;
 }
 
@@ -82,3 +82,83 @@ body {
 	margin-bottom: 40px;
 }
 
+/*About Me Container*/
+
+.about-me h2 {
+	font-weight: 700;
+}
+
+.about-me h1 {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 89px;
+	margin-top: 24px;
+}
+
+.about-me p {
+	width: 410px;
+	color: #595959;
+	margin-top: 24px;
+}
+
+.about-me {
+	margin-bottom: 60px;
+}
+
+.project h3 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.project ol {
+	margin-left: 15px;
+}
+
+.project li {
+	font-weight: 700;
+}
+
+.project a {
+	color: #595959;
+	font-weight: 400;
+	padding-left: 10px;
+}
+
+.project span {
+	color: #595959;
+	font-weight: 400;
+}
+
+.project {
+	margin-bottom: 50px;
+}
+
+.work-experience h3,
+.education h3 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+
+.company h4 {
+	font-weight: 700;
+}
+
+.color {
+	color: #ff6b08;
+}
+
+.time {
+	font-size: 12px;
+	color: #a8a8a8;
+	margin-bottom: 14px
+}
+
+.company ul {
+	margin-left: 15px;
+}
+
+.company {
+	margin-bottom: 24px;
+}
